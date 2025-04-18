@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  test-python:
+  build:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
